@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap");
+body {
+  margin: 0 auto;
+  background-color: #fdfffc;
+  max-width: 1920px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+}
+
+.header-flex {
+}
+.headerThem {
+  width: 191px;
+  height: 100px;
+  background-color: #011627;
+  margin-top: 5vh;
+  margin-left: 12.5vw;
+  border-radius: 53px;
+}
+.header-flex img {
+  /* background-color: red; */
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 62%;
+}
+.headerTitle {
+  margin-top: 5vh;
+  /* margin-left: 250px; */
+  margin-left: 13vw;
+  font-size: 5vw;
+  font-weight: 700;
+}
+.headerTitle p {
+  background-color: #41ead4;
+  margin: 0;
+  display: inline-block;
+  padding: 13px 30px 13px 30px;
+}
+.headerTitle .p {
+  margin-top: 15px;
+  margin-left: 5vw;
+}
+
+.headerParag {
+  font-size: 40px;
+  margin-left: 15.3vw;
+  margin-top: 0vh;
+}
+.headerDescription {
+  width: 15vw;
+  margin-left: 15.5vw;
+  font-size: 1.04vw;
+}
+.headerStock {
+  display: flex;
+  margin-left: 13vw;
+  justify-content: flex-start;
+  margin-top: 2vh;
+}
+.hederStockPrice {
+  display: flex;
+  flex-direction: column;
+}
+.hSP-one {
+  height: 7vh;
+  margin-bottom: 10px;
+  background-color: #011627;
+  color: white;
+  font-size: 2.7vw;
+  padding: 1px;
+  padding: 0 20px;
+}
+.hSP-two {
+  height: 14vh;
+  background-color: #011627;
+  color: white;
+  font-size: 3.2vw;
+  padding: 0 20px;
+  text-align: center;
+}
+.hSP-two p {
+  margin: 0;
+  color: #41ead4;
+  font-size: 2vw;
+}
+
+.headerStock button {
+  background-color: #ff6635;
+  width: 27vw;
+  height: 23vh;
+  margin-left: 2vw;
+  font-size: 4vw;
+  line-height: 80px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ;
+}
+.headerStock button:hover{
+  background-color: #e24009;
+  transform: scale(1.01);
+}
+
+@media (max-width: 1370px){
+  .headerTitle {
+    margin-top: 1vh;
+    /* margin-left: 250px; */
+    margin-left: 10vw;
+    font-size: 5vw;
+    font-weight: 700;
+  }
+}
+

@@ -1,26 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
-.vector1{
+.vector1 {
   position: absolute;
   right: 0px;
   z-index: -1;
-  width:8vw;
-
+  width: 8vw;
 }
-.vector11{
+.vector11 {
   position: absolute;
   right: 0px;
   z-index: -1;
-  width:22vw;
-
+  width: 22vw;
 }
-.vector13{
+.vector13 {
   position: absolute;
   right: 0px;
   z-index: -1;
-  width:15vw;
-
+  width: 15vw;
 }
-
 
 .prev {
   display: none;
@@ -120,9 +116,6 @@ body {
   background-color: #fdfffc;
   max-width: 1920px;
   font-family: "Montserrat", sans-serif;
-
-  
-
 }
 
 header {
@@ -377,6 +370,10 @@ section {
   margin-bottom: 40px;
 }
 .container-flex {
+  display: flex;
+  justify-content: center;
+}
+.container-flex-reel {
   display: flex;
   justify-content: center;
 }
@@ -812,8 +809,8 @@ section {
   padding: 0 10px;
   cursor: pointer;
 }
-.dark-theme footer{
-  color: white
+.dark-theme footer {
+  color: white;
 }
 footer {
   text-align: center;
@@ -866,6 +863,33 @@ footer div {
   }
 }
 @media (max-width: 500px) {
+  .feedbackClick {
+    font-size: 6.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.feedback-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+  section {
+    margin-top: 20px;
+}
+.video{
+  font-size: 13px;
+}
+
+  .videoBlock {
+    margin-top: 5px;
+    background-color: #41ead4;
+    width: 37vw;
+    height: 22vh;
+    margin-right: 5px;
+    font-size: 14px;
+    margin-left: 18px;
+}
   .reelPhotoInd {
     display: block;
   }
@@ -881,12 +905,18 @@ footer div {
     justify-content: space-around;
     align-items: center;
   }
-  .bg{
+  .container-flex-reel {
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .bg {
     background-color: #41ead4;
-    margin-left: 4vw;
-    width: 300px;
-    height: 300px;
-    margin-top: 36px;
+    margin-left: 10vw;
+    margin-right: 15px;
+    width: 250px;
+    height: 250px;
+    margin-top: 32px;
   }
   .container-flex img {
     width: 100%;
@@ -895,12 +925,18 @@ footer div {
   .myModal .modal_content {
     background-color: #fefefe;
     margin: 5% auto;
-    padding: 29px;
-    width: 200px;
+    padding: 6px;
+    width: 284px;
     z-index: 99999;
-    border-radius: 20px;
+    border-radius: 20px
   }
-
+.modal_content input {
+  height: 6vh;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  margin-top: 4px;
+  font-size: 3.5vw;
+}
   .header-flex .imgLogo {
     width: 100%;
   }
@@ -1013,11 +1049,11 @@ footer div {
   .discountSystem #black {
     font-size: 11px;
     background-color: #011627;
-    width: 6%;
+    width: 16%;
     border-radius: 30px;
     margin-right: 20px;
     margin-left: -2px;
-    padding: 2px 13px;
+    padding: 3px 13px;
   }
 
   .lampModes {
@@ -1056,16 +1092,18 @@ footer div {
 
     width: auto;
 
-    padding: 16px;
+    padding: 2px 5px;
 
     font-weight: bold;
     font-size: 18px;
+    background-color: #41ead4;
+    border-radius: 100%;
   }
 
   /* Position the "next button" to the right */
   .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 100%;
   }
 
   /* On hover, add a black background color with a little bit see-through */
@@ -1150,74 +1188,114 @@ footer div {
     border-radius: 20px;
     padding-bottom: 6px;
     padding-right: 6px;
+  }
+  .feedbackComment {
+    margin-left: 3vw;
+    font-size: 3.1vw;
+    margin-bottom: 5px;
+  }
+
+  .new-goodsFlex {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+
+  .flZnach {
+    display: flex;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    justify-content: center;
 }
-.feedbackComment {
-  margin-left: 3vw;
-  font-size: 3.1vw;
-  margin-bottom: 5px;
+  .buyBlock {
+    margin-top: 69px;
+    text-align: center;
+}
+  .new-goods {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 73%;
+    border: solid 1px #011627;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .manual {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+  .manualBlock {
+    border: solid 1px #011627;
+    border-radius: 10px;
+    width: 82%;
+    /* margin-right: 50px; */
+    /* margin-left: 50px; */
+    margin-bottom: 30px;
+    padding: 5px;
+  }
+
+  .manualBlock h1 {
+    position: relative;
+    top: -29px;
+    right: 0px;
+    padding: 15px;
+    color: #011627;
+  }
+  .buyLogoImg {
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 100%;
+    width: 330px;
+  }
+
+  .buyLogoImgBlock {
+    background-color: #41ead4;
+    border-radius: 100%;
+    width: 323px;
+    height: 285px;
+    margin-right: 0px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 65px;
+    width: 100%;
+    color: black;
+    margin-bottom: 100px;
+}
+.myModal button {
+  margin-top: 0px;
+  font-size: 16px;
+  padding: 11px 28px;
+  background-color: #011627;
+  border: none;
+  box-shadow: inset -4px -4px 8px rgb(0 0 0 / 25%), inset 4px 4px 8px rgb(255 255 255 / 25%);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 500ms;
 }
 
-
-.new-goodsFlex {
-  width: 98%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  /* flex-wrap: wrap; */
-}
-.new-goods {
+.modal_content label {
   display: flex;
   flex-direction: column;
-  text-align: left;
-  width: 73%;
-  border: solid 1px #011627;
-  margin-bottom: 20px;
-  border-radius: 20px;
+  font-size: 3vw;
 }
-.manual {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  flex-wrap: wrap;
+.myModal h1 {
+  font-size: 4vw;
+  margin-top: 37px;
 }
-.manualBlock {
-  border: solid 1px #011627;
-  border-radius: 10px;
-  width: 82%;
-  /* margin-right: 50px; */
-  /* margin-left: 50px; */
-  margin-bottom: 30px;
-  padding: 5px;
-}
-
-.manualBlock h1 {
-  
-  position: relative;
-  top: -29px;
-  right: 0px; 
-  padding: 15px;
-  color: #011627;
-}
-.buyLogoImg {
-  position: absolute;
-  bottom: -3px;
-  left: 0px;
-  background-color: rgba(255, 0, 0, 0);
-  border-radius: 100%;
-  width: 330px;
-}
-
-.buyLogoImgBlock {
-  background-color: #41ead4;
-  border-radius: 100%;
-  width: 323px;
-  height: 285px;
-  margin-right: 0px;
-  position: relative;
-  top: 0px; 
-  right: 0px;
-}
-
 }
 
 @media (max-width: 350px) {

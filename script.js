@@ -8,10 +8,16 @@ btn.addEventListener("click", function () {
 });
 
 const modal = document.querySelector(".myModal");
+const modalFdb = document.querySelector(".myModalFedb");
 const btnModal = document.querySelectorAll(".btnModal");
+const btnModalFdb = document.querySelector(".btnModalFdb");
 console.log(btnModal);
 const span = document.querySelector(".close_modal_window");
-
+const span1 = document.querySelector(".myModalFedb .close_modal_window");
+btnModalFdb.onclick = function () {
+  modalFdb.style.display = "block"
+  console.log("Test")
+};
 btnModal[0].onclick = function () {
   modal.style.display = "block";
 };
@@ -22,14 +28,20 @@ btnModal[1].onclick = function () {
 span.onclick = function () {
   modal.style.display = "none";
 };
-
+span1.onclick = function () {
+  modalFdb.style.display = "none";
+};
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+  if (event.target == modalFdb) {
+    modalFdb.style.display = "none";
+  }
+ 
 };
 
-if (window.screen.availWidth < 500) {
+if (window.screen.availWidth < 610) {
   var slideIndex = 1;
   var slideIndex1 = 1;
   var slideIndex2 = 1;

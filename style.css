@@ -29,6 +29,8 @@ header{
     
 
 }
+
+header button{ }
 footer {
   text-align: center;
   margin-top: 150px;
@@ -413,6 +415,7 @@ input:checked + .slider:before {
   transition: background-color 0.3s;
   box-shadow: inset 10px 15px 30px rgba(255, 255, 255, 0.25),
     inset -10px -15px 30px rgba(0, 0, 0, 0.15);
+    z-index: 100;
 }
 .headerStock button a {
   text-decoration: none;

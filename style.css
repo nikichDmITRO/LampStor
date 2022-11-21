@@ -406,7 +406,7 @@ input:checked + .slider:before {
 
 .headerStock button {
   background-color: #ff6635;
-  width: 24vw;
+  width: 22vw;
   height: 21vh;
   margin-left: 2vw;
   font-size: 3.4vw;
@@ -690,7 +690,7 @@ section {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 30%;
+  width: 31%;
   border: solid 1px #011627;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -700,7 +700,7 @@ section {
   color: white;
 }
 .new-goodsName {
-  font-size: 20px;
+  font-size: 18px;
   margin: 25px 0 15px 25px;
 }
 .new-goodsBuy {
@@ -711,7 +711,7 @@ section {
   align-items: center;
 }
 .new-goodsBuy p {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 300;
   margin: 0;
   margin-top: 15px;
@@ -1051,9 +1051,8 @@ footer div {
   }
   .headerStock button {
     font-size: 2.7vw;
-    line-height: 51px;
-
-    height: 125px;
+    line-height: 40px;
+    height: 122px;
     margin-bottom: 20px;
   }
 
@@ -1318,6 +1317,14 @@ footer div {
   }
 }
 @media (max-width: 830px) {
+  #p7{
+    position: relative;
+    right: 20px;
+  }
+  #p8{
+    position: relative;
+    right: 63px;
+  }
   .videoBlock {
     width: 170px;
 
@@ -1383,7 +1390,14 @@ footer div {
   }
 }
 @media (max-width: 600px) {
-  
+  #p7{
+    position: relative;
+    right: 0px;
+  }
+  #p8{
+    position: relative;
+    right: 0px;
+  }
   .videoBlock {
     margin-top: 50px;
     background-color: rgb(65, 234, 212);

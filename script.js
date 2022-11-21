@@ -18,11 +18,30 @@ btnModalFdb.onclick = function () {
   modalFdb.style.display = "block"
   console.log("Test")
 };
+
 btnModal[0].onclick = function () {
   modal.style.display = "block";
 };
 
 btnModal[1].onclick = function () {
+  modal.style.display = "block";
+};
+btnModal[2].onclick = function () {
+  modal.style.display = "block";
+};
+btnModal[3].onclick = function () {
+  modal.style.display = "block";
+};
+btnModal[4].onclick = function () {
+  modal.style.display = "block";
+};
+btnModal[5].onclick = function () {
+  modal.style.display = "block";
+};
+btnModal[6].onclick = function () {
+  modal.style.display = "block";
+};
+btnModal[7].onclick = function () {
   modal.style.display = "block";
 };
 span.onclick = function () {

@@ -97,7 +97,7 @@ footer {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1000;
-  font-size: 24px;
+  font-size: 13px;
   text-align: center;
 }
 .myModal .modal_content {
@@ -111,7 +111,7 @@ footer {
 .myModal .modal_content .close_modal_window {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -160,16 +160,15 @@ footer {
   border-radius: 10px;
   margin-bottom: 18px;
   margin-top: 4px;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 .myModal button {
   margin-top: 10px;
-  font-size: 34px;
-  padding: 20px 58px;
+  font-size: 26px;
+  padding: 13px 40px;
   background-color: #011627;
   border: none;
-  box-shadow: inset -4px -4px 8px rgb(0 0 0 / 25%),
-    inset 4px 4px 8px rgb(255 255 255 / 25%);
+  box-shadow: inset -4px -4px 8px rgb(0 0 0 / 25%), inset 4px 4px 8px rgb(255 255 255 / 25%);
   border-radius: 10px;
   color: white;
   cursor: pointer;
@@ -185,16 +184,15 @@ footer {
 }
 .myModalFedb button {
   margin-top: 10px;
-  font-size: 34px;
-  padding: 20px 58px;
-  background-color: #011627;
+  font-size: 26px;
+  padding: 12px 30px;
+  background-color: rgb(1, 22, 39);
   border: none;
-  box-shadow: inset -4px -4px 8px rgb(0 0 0 / 25%),
-    inset 4px 4px 8px rgb(255 255 255 / 25%);
+  box-shadow: rgb(0 0 0 / 25%) -4px -4px 8px inset, rgb(255 255 255 / 25%) 4px 4px 8px inset;
   border-radius: 10px;
   color: white;
   cursor: pointer;
-  transition: background-color 500ms;
+  transition: background-color 500ms ease 0s;
 }
 .myModalFedb button:hover {
   background-color: #0ca316;
@@ -1430,12 +1428,12 @@ body {
     border-radius: 20px;
   }
   .modal_content input {
-    height: 6vh;
-    border-radius: 10px;
-    margin-bottom: 18px;
-    margin-top: 4px;
-    font-size: 3.5vw;
-  }
+    height: 4vh;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    font-size: 3.7vw;
+}
   .header-flex .imgLogo {
     width: 90%;
   }
@@ -1794,8 +1792,8 @@ body {
   }
   .myModal h1 {
     font-size: 4vw;
-    margin-top: 37px;
-  }
+    margin-top: 22px;
+}
   footer a {
     color: rgb(1, 22, 39);
     display: block;
@@ -1839,8 +1837,8 @@ body {
     transition: background-color 500ms;
   }
   .myModal {
-    font-size: 12px;
-  }
+    font-size: 8px;
+}
   .feedback {
     margin-top: 20px;
     width: 74%;

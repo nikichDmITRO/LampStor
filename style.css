@@ -32,8 +32,7 @@ header {
 .fImg {
   width: auto;
 }
-header button {
-}
+
 footer {
   text-align: center;
   margin-top: 150px;
@@ -316,8 +315,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.header-flex {
-}
+
 
 .header-flex .imgLogo {
   /* background-color: red; */
@@ -334,8 +332,7 @@ input:checked + .slider:before {
   font-size: 4.8vw;
   font-weight: 700;
 }
-.dark-theme .headerTitle {
-}
+
 .headerTitle p {
   background-color: #41ead4;
   margin: 0;

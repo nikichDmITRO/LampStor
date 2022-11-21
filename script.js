@@ -177,3 +177,7 @@ function minFunk() {
 
   document.querySelector(".znach").innerHTML = a;
 }
+
+
+
+

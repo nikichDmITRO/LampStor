@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
+footer .container {
+  width: 70%;
+}
+
 body {
   margin: 0 auto;
   background-color: #fdfffc;
@@ -8,36 +12,34 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: -34vw 6vh;
+  padding-bottom: 3px;
 }
 
-main{
- 
-    /* background-image: url(img/Vector\ 2.svg); */
-    background-image: url(img/Vector\ 2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 69vw -10vh;
-
+main {
+  /* background-image: url(img/Vector\ 2.svg); */
+  background-image: url(img/Vector\ 2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 69vw -10vh;
 }
 
-header{
-
-    background-image: url(img/Vector\ 2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 76vw -10vh;
-    
-
+header {
+  background-image: url(img/Vector\ 2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 76vw -10vh;
 }
-
-header button{ }
+.fImg {
+  width: auto;
+}
+header button {
+}
 footer {
   text-align: center;
   margin-top: 150px;
   width: 100%;
   color: black;
   margin-bottom: 50px;
-
 }
 .vector1 {
   position: absolute;
@@ -57,7 +59,14 @@ footer {
   z-index: -1;
   width: 15vw;
 }
-
+#p7{
+  position: relative;
+  right: 60px;
+}
+#p8{
+  position: relative;
+  right: 103px;
+}
 .prev {
   display: none;
 }
@@ -168,7 +177,8 @@ footer {
   padding: 13px 40px;
   background-color: #011627;
   border: none;
-  box-shadow: inset -4px -4px 8px rgb(0 0 0 / 25%), inset 4px 4px 8px rgb(255 255 255 / 25%);
+  box-shadow: inset -4px -4px 8px rgb(0 0 0 / 25%),
+    inset 4px 4px 8px rgb(255 255 255 / 25%);
   border-radius: 10px;
   color: white;
   cursor: pointer;
@@ -188,7 +198,8 @@ footer {
   padding: 12px 30px;
   background-color: rgb(1, 22, 39);
   border: none;
-  box-shadow: rgb(0 0 0 / 25%) -4px -4px 8px inset, rgb(255 255 255 / 25%) 4px 4px 8px inset;
+  box-shadow: rgb(0 0 0 / 25%) -4px -4px 8px inset,
+    rgb(255 255 255 / 25%) 4px 4px 8px inset;
   border-radius: 10px;
   color: white;
   cursor: pointer;
@@ -202,8 +213,6 @@ footer {
   font-size: 12px;
   margin-top: 36px;
 }
-
-
 
 .dark-theme header .header-flex #luc {
   background-image: url(img/Vector.png);
@@ -400,10 +409,10 @@ input:checked + .slider:before {
 
 .headerStock button {
   background-color: #ff6635;
-  width: 27vw;
+  width: 24vw;
   height: 21vh;
   margin-left: 2vw;
-  font-size: 4vw;
+  font-size: 3.4vw;
   line-height: 80px;
   color: #fff;
   font-weight: 700;
@@ -411,9 +420,8 @@ input:checked + .slider:before {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  box-shadow: inset 10px 15px 30px rgba(255, 255, 255, 0.25),
-    inset -10px -15px 30px rgba(0, 0, 0, 0.15);
-    z-index: 100;
+  box-shadow: inset 10px 15px 30px rgb(255 255 255 / 25%), inset -10px -15px 30px rgb(0 0 0 / 15%);
+  z-index: 100;
 }
 .headerStock button a {
   text-decoration: none;
@@ -533,8 +541,8 @@ section {
 .videoBlock {
   margin-top: 50px;
   background-color: rgb(65, 234, 212);
-  width: 21vw;
-  height: 33vh;
+  width: 384px;
+  height: 384px;
   margin-right: 50px;
   font-size: 25px;
   margin-left: 50px;
@@ -610,15 +618,14 @@ section {
 }
 .feedback {
   margin-top: 20px;
-  width: 31%;
+  width: 28%;
   background-color: #011627;
   color: white;
   text-align: left;
-
   font-weight: 300;
-
   border-radius: 20px;
   padding-bottom: 20px;
+  padding-right: 4px;
 }
 .dark-theme .feedback {
   background-color: #fdfffc;
@@ -652,23 +659,18 @@ section {
   opacity: 0.6;
 }
 .feedbackClick {
-  padding: 4px 23px;
+  padding: 14px 32px;
   margin-top: 40px;
   margin-bottom: 10px;
   background-color: #41ead4;
-  font-size: 3.2vw;
-  color: #fff;
+  font-size: 2vw;
+  color: #011627;
   font-weight: 600;
   border-radius: 10px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  box-shadow: 19.5867px 19.0844px 11.0489px rgb(0 0 0 / 1%),
-    11.0489px 10.5467px 9.04px rgb(0 0 0 / 5%),
-    5.02222px 4.52px 7.03111px rgb(0 0 0 / 9%),
-    1.00444px 1.00444px 3.51556px rgb(0 0 0 / 10%), 0px 0px 0px rgb(0 0 0 / 10%),
-    inset -4px -4px 8px rgb(0 0 0 / 25%),
-    inset 4px 4px 8px rgb(255 255 255 / 25%);
+  box-shadow: 19.5867px 19.0844px 11.0489px rgb(0 0 0 / 1%), 11.0489px 10.5467px 9.04px rgb(0 0 0 / 5%), 5.02222px 4.52px 7.03111px rgb(0 0 0 / 9%), 1.00444px 1.00444px 3.51556px rgb(0 0 0 / 10%), 0px 0px 0px rgb(0 0 0 / 10%), inset -4px -4px 8px rgb(0 0 0 / 25%), inset 4px 4px 8px rgb(255 255 255 / 25%);
   transition: background-color 500ms;
 }
 .feedbackClick a {
@@ -767,7 +769,7 @@ section {
 .manualBlock {
   border: solid 1px #011627;
   border-radius: 10px;
-  width: 25%;
+  width: 22%;
   margin-right: 50px;
   margin-left: 50px;
   /* position: relative;
@@ -791,8 +793,8 @@ section {
   margin: 0;
   position: relative;
   top: -23px;
-  right: 120px;
-  padding: 15px;
+  
+  padding: 15px 30px;
   color: #011627;
 }
 .manualBlockElem {
@@ -837,18 +839,16 @@ section {
 }
 .buyBlock .btnBuy {
   background: #ff6635;
-  /* Кнопка */
-
-  box-shadow: inset 10px 15px 30px rgba(255, 255, 255, 0.25),
-    inset -10px -15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 10px 15px 30px rgb(255 255 255 / 25%), inset -10px -15px 30px rgb(0 0 0 / 15%);
   border-radius: 10px;
-  font-size: 35px;
+  font-size: 24px;
   color: white;
   border: none;
-  padding: 5px 25px;
+  padding: 8px 38px;
   cursor: pointer;
-  line-height: 38px;
+  line-height: 33px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 .buyLogoImg {
   position: absolute;
@@ -930,21 +930,40 @@ footer {
   margin-top: 150px;
   width: 100%;
   color: black;
-  margin-bottom: 50px;
+  margin-bottom: 3px;
 }
 footer a {
   color: rgb(1, 22, 39);
   display: block;
-  margin-bottom: 21px;
-  margin-top: 33px;
+  margin-bottom: 30px;
+  margin-top: 24px;
 }
+
 .dark-theme footer a {
   color: #f2f2f2;
 }
 footer div {
   display: flex;
   justify-content: space-between;
-}@media (max-width: 1570px) {
+}
+@media (max-width: 1570px) {
+  .manualBlock {
+    border: solid 1px #011627;
+    border-radius: 10px;
+    width: 26%;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px;
+}
+  .videoBlock {
+    margin-top: 50px;
+    background-color: rgb(65, 234, 212);
+    width: 310px;
+    height: 310px;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
   body {
     margin: 0 auto;
     background-color: #fdfffc;
@@ -953,9 +972,27 @@ footer div {
     background-image: url(img/Vector\ 6.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: -41vw 6vh;}
+    background-position: -41vw 6vh;
+  }
 }
 @media (max-width: 1370px) {
+  .manualBlock {
+    border: solid 1px #011627;
+    border-radius: 30px;
+    width: 29%;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px;
+}
+  .videoBlock {
+    margin-top: 50px;
+    background-color: rgb(65, 234, 212);
+    width: 270px;
+    height: 270px;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
   body {
     margin: 0 auto;
     background-color: #fdfffc;
@@ -965,7 +1002,7 @@ footer div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -43vw 6vh;
-}
+  }
   .switch {
     width: 188px;
     height: 88px;
@@ -1060,6 +1097,9 @@ footer div {
     width: 32%;
     text-align: left;
   }
+  .video {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1072,7 +1112,7 @@ footer div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -55vw 6vh;
-}
+  }
   .goodsImg img {
     width: 50%;
   }
@@ -1206,14 +1246,34 @@ footer div {
   .videoBlock {
     margin-top: 50px;
     background-color: rgb(65, 234, 212);
-    width: 213px;
-    height: 213px;
+    width: 236px;
+    height: 236px;
     margin-right: 50px;
     font-size: 25px;
     margin-left: 50px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1080px) {
+  .video {
+    font-size: 18px;
+  }
+
+  .videoBlock {
+    margin-top: 50px;
+    background-color: rgb(65, 234, 212);
+    width: 205px;
+    height: 205px;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .fImg {
+    width: auto;
+    height: 59px;
+  }
+  footer .container {
+    width: 70%;
+  }
   body {
     margin: 0 auto;
     background-color: #fdfffc;
@@ -1223,7 +1283,7 @@ footer div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -57vw 6vh;
-}
+  }
   .manualBlock h1 {
     margin: 0;
     position: relative;
@@ -1242,6 +1302,13 @@ footer div {
   }
 }
 @media (max-width: 980px) {
+  footer .container {
+    width: 70%;
+  }
+  .fImg {
+    width: auto;
+    height: 52px;
+  }
   body {
     margin: 0 auto;
     background-color: #fdfffc;
@@ -1251,25 +1318,34 @@ footer div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -75vw 6vh;
-}}
-@media (max-width: 800px) {
+  }
+}
+@media (max-width: 830px) {
+  .videoBlock {
+    width: 170px;
+
+    height: 170px;
+  }
+  .video {
+    font-size: 16px;
+  }
   header {
     background-image: url(img/Vector\ 2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 66vw -10vh;
     width: 100vw;
-}
-body {
-  margin: 0 auto;
-  background-color: #fdfffc;
-  max-width: 1920px;
-  font-family: "Montserrat", sans-serif;
-  background-image: url(img/Vector\ 6.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: -84vw 16vh;
-}
+  }
+  body {
+    margin: 0 auto;
+    background-color: #fdfffc;
+    max-width: 1920px;
+    font-family: "Montserrat", sans-serif;
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0vw 0vh;
+  }
   .manualBlock {
     border: solid 1px #011627;
     border-radius: 10px;
@@ -1298,36 +1374,76 @@ body {
     padding-right: 15px;
     margin: 0;
   }
+
+  .buyBlock p {
+    font-size: 47px;
+    font-weight: 300;
+    margin: 0;
+  }
   .fImg {
-    width: 8%;
-    height: 60px;
+    width: auto;
+    height: 37px;
   }
 }
 @media (max-width: 600px) {
+  
+  .videoBlock {
+    margin-top: 50px;
+    background-color: rgb(65, 234, 212);
+    width: 160px;
+    height: 160px px;
+    margin-right: 20px;
+    font-size: 25px;
+    margin-left: 33px;
+  }
+  .video {
+    font-size: 15px;
+  }
+  .fImg {
+    width: auto;
+    height: 29px;
+  }
+  footer .container {
+    width: 80%;
+  }
+
+  footer a {
+    font-size: 11px;
+  }
+  footer p {
+    font-size: 11px;
+  }
+  body {
+    margin: 0 auto;
+    background-color: #fdfffc;
+    max-width: 1920px;
+    font-family: "Montserrat", sans-serif;
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -90vw 45vh;
+  }
+
+  .buyBlock p {
+    font-size: 47px;
+    font-weight: 300;
+    margin: 0;
+  }
   header {
     background-image: url(img/Vector\ 2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 56vw -7vh;
     width: 100vw;
-}
-main {
-  /* background-image: url(img/Vector\ 2.svg); */
-  background-image: url(img/Vector\ 2.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 73vw -10vh;
-}
-body {
-  margin: 0 auto;
-  background-color: #fdfffc;
-  max-width: 1920px;
-  font-family: "Montserrat", sans-serif;
-  background-image: url(img/Vector\ 6.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: -100vw 10vh;
-}
+  }
+  main {
+    /* background-image: url(img/Vector\ 2.svg); */
+    background-image: url(img/Vector\ 2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 73vw -10vh;
+  }
+
   .lampModes {
     width: 20%;
     text-align: left;
@@ -1347,16 +1463,16 @@ body {
     font-size: 12px;
     z-index: 1000;
     position: relative;
-    top: -27px;
+    top: -26px;
     left: 29px;
     color: white;
     opacity: 0.8;
   }
   .feedbackClick {
-    font-size: 6.5vw;
+    font-size: 5.5vw;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+}
   .feedback-flex {
     display: flex;
     justify-content: space-around;
@@ -1370,17 +1486,13 @@ body {
     font-size: 13px;
   }
 
-  .videoBlock {
-    margin-top: 5px;
-    background-color: #41ead4;
-    width: 37vw;
-    height: 22vh;
-    margin-right: 5px;
-    font-size: 14px;
-    margin-left: 18px;
-  }
   .reelPhotoInd {
     display: block;
+  }
+  footer .container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
   }
   .container {
     width: 98%;
@@ -1426,14 +1538,14 @@ body {
     width: 284px;
     z-index: 99999;
     border-radius: 20px;
-}
+  }
   .modal_content input {
     height: 34px;
     border-radius: 8px;
     margin-bottom: 11px;
     margin-top: 2px;
     font-size: 3.7vw;
-}
+  }
   .header-flex .imgLogo {
     width: 90%;
   }
@@ -1586,16 +1698,15 @@ body {
   .next {
     display: block;
     cursor: pointer;
-
-    width: auto;
-
-    padding: 2px 5px;
-
-    font-weight: bold;
-    font-size: 18px;
+    width: 22px;
+    padding: 2px 6px;
+    font-weight: 100;
+    padding: 3px 5px;
     background-color: #41ead4;
     border-radius: 100%;
-  }
+    opacity: 0.6;
+    font-size: 14px;
+}
 
   /* Position the "next button" to the right */
   .next {
@@ -1671,10 +1782,7 @@ body {
       opacity: 1;
     }
   }
-  footer div img {
-    width: 11%;
-    height: 30px;
-  }
+
   .feedback {
     margin-top: 20px;
     width: 68%;
@@ -1769,7 +1877,6 @@ body {
     margin-top: 65px;
     width: 100%;
     color: black;
-    margin-bottom: 100px;
   }
   .myModal button {
     margin-top: 0px;
@@ -1793,7 +1900,7 @@ body {
   .myModal h1 {
     font-size: 4vw;
     margin-top: 22px;
-}
+  }
   footer a {
     color: rgb(1, 22, 39);
     display: block;
@@ -1804,18 +1911,41 @@ body {
     font-size: 20px;
     margin: 16px 0 9px 12px;
   }
-  .buyBlock p {
-    font-size: 50px;
-    font-weight: 300;
-    margin: 0;
+  .fImg {
+    width: auto;
+    height: 26px;
   }
 }
 @media (max-width: 470px) {
+  .videoInfo {
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 6px;
+  }
+  .fImg {
+    width: auto;
+    height: 24px;
+  }
+  .video {
+    background-color: #011627;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* align-content: stretch; */
+    justify-content: center;
+    font-size: 13px;
+  }
   .videoBlock {
-    margin-top: 5px;
+    margin-top: 14px;
     background-color: #41ead4;
-    width: 37vw;
-    height: 18vh;
+    width: 130px;
+    height: 130px;
     margin-right: 5px;
     font-size: 14px;
     margin-left: 18px;
@@ -1838,7 +1968,7 @@ body {
   }
   .myModal {
     font-size: 8px;
-}
+  }
   .feedback {
     margin-top: 20px;
     width: 74%;
@@ -1884,8 +2014,10 @@ body {
   .manual {
     display: flex;
     justify-content: center;
-    margin-top: 27px;
+    margin-top: 100px;
     flex-wrap: wrap;
+    margin-right: 7px;
+    margin-left: 6px;
   }
   .buyBlock {
     margin-top: 42px;
@@ -1904,16 +2036,13 @@ body {
     line-height: 32px;
     font-family: "Montserrat", sans-serif;
   }
-  .fImg {
-    width: 15%;
-    height: 38px;
-  }
+
   footer {
     text-align: center;
     margin-top: 65px;
     width: 100%;
     color: black;
-    margin-bottom: 38px;
+    margin-bottom: 8px;
     font-size: 14px;
   }
   .headerTitle {
@@ -1943,6 +2072,14 @@ body {
     font-weight: 400;
     padding-right: 5px;
     margin: 0;
+  }
+  footer {
+    text-align: center;
+    margin-top: 48px;
+    width: 100%;
+    color: black;
+    margin-bottom: 8px;
+    font-size: 14px;
   }
 }
 
@@ -1981,6 +2118,10 @@ body {
     position: relative;
     top: 2px;
     left: 2px;
+  }
+  .fImg {
+    width: auto;
+    height: 15px;
   }
 }
 @media (min-width: 1970px) {

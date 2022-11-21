@@ -1421,17 +1421,17 @@ body {
   }
   .myModal .modal_content {
     background-color: #fefefe;
-    margin: 5% auto;
+    margin: 3% auto;
     padding: 6px;
     width: 284px;
     z-index: 99999;
     border-radius: 20px;
-  }
+}
   .modal_content input {
-    height: 4vh;
+    height: 34px;
     border-radius: 8px;
-    margin-bottom: 15px;
-    margin-top: 3px;
+    margin-bottom: 11px;
+    margin-top: 2px;
     font-size: 3.7vw;
 }
   .header-flex .imgLogo {
